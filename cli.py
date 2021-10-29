@@ -18,7 +18,10 @@ class Transkribus_CLI:
     def login(self):
         YOUR_USER_NAME = input("Transkribus user name: ")
         YOUR_PASSWORD = input("Password: ")
-        self.client.login(YOUR_USER_NAME, YOUR_PASSWORD)
+        success = self.client.login(YOUR_USER_NAME, YOUR_PASSWORD)
+        if success == False:
+            print("Wrong username or password. Try again!")
+            self.login()
 
     def choose_collection(self):
         """ Get a list of the user's collections on the Transkribus server
