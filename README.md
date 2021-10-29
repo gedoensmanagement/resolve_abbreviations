@@ -8,6 +8,7 @@
 * Clone this repository.
 * Use pip to install the required Python packages: `pip install -r requirements.txt`.
 * Download [`hunspell-la.zip`](https://latin-dict.github.io/docs/hunspell-la.zip), the Latin Hunspell dictionary by Karl Zeiler and Jean-Pierre Sutto, and unzip it to the project folder (“resolve_abbreviations”).
+* Import the `Transkribus_Test_Data` folder into your Transkribus account.
 
 ## Usage
 * Read the documentation on https://dhlab.hypotheses.org/2154.
